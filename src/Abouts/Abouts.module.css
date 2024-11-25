@@ -1,0 +1,118 @@
+.container {
+    display: grid;
+    background-color: black;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 3fr 2.5fr;
+}
+.stair{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background-image: url("src/assets/stair 1.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin: 15vh 8vw 0vh 10vw;
+
+}
+.vision {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    justify-self: left;
+    align-self: center;
+
+    p {
+        display: inline-block;
+        justify-content: left;
+        font-size: 0.8rem;
+        margin: 4vh 0vw;
+    }
+
+    .line {
+        width: 100px;
+        height: 2px;
+        background-color: white;
+        border: none;
+        margin: 0;
+    }
+
+    span, .square {
+        color: black;
+        background-color: white;
+        margin: 1vh 1vw;
+        display: inline-flex;
+        justify-self: left;
+        justify-content: center;
+        align-items: center;
+        height: 5vh;
+        width: 5vh;
+        line-height: 10vh;
+        font-size: 1rem;
+        font-weight: bolder;
+        border: 2px solid black;
+        gap: 1vw;
+    }
+}
+
+.mission{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    margin-left: 5vw;
+    margin-bottom: 10vh;
+    align-self: center;
+    p{
+        display: inline-block;
+        text-align: justify;
+        font-size: 0.8rem;
+        margin : 4vh 6vw;
+        position: relative;
+        top: -40px;
+
+
+    }
+    span,.square{
+        color: black;
+        background-color: white;
+        margin: 1vh 1vw;
+        display: inline-flex;
+        justify-self: left;
+        justify-content: center;
+        align-items: center;
+        height: 5vh;
+        width: 5vh;
+        line-height: 10vh;
+        font-size: 1rem;
+        font-weight: bolder;
+        border: 2px solid black;
+        gap: 1vw;
+        position: relative;
+        top: 40px;
+    }
+    .line {
+        width: 100px;
+        height: 2px;
+        background-color: white;
+        border: none;
+        margin: 0;
+    }
+
+}
+.livingroom{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    background-image: url("src/assets/second image.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 50vh;
+    width: 50vw;
+    margin-top: 25vh;
+    margin-bottom: 10vh;
+}

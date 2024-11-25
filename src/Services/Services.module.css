@@ -1,0 +1,88 @@
+.container {
+    display: grid;
+    background-color: black;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    height: 100vh;
+    width: 100vw;
+}
+.service{
+    justify-self: center;
+    align-self: center;
+
+    h1 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+
+
+    .line {
+        width: 100px;
+        height: 2px;
+        background-color: white;
+        border: none;
+        margin : 0;
+    }
+}
+.content {
+    justify-self: left;
+    align-self:end;
+    margin-bottom: 5vh;
+    p {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+}
+.statistics {
+    justify-self: left;
+    align-self: center;
+    margin-left: 8vw;
+    h1 {
+        grid-column-start: 3;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        margin-bottom: 1vh;
+    }
+    p{
+
+        margin-top: .5vh;
+    }
+}
+.first {
+    height : 45vh;
+    width : 50vw;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    overflow: hidden;
+    position: relative;
+    margin: 5vh 2vw 5vh 2vw;
+    background-image: url("src/assets/ian-dooley-Jg2bsrWF2_o-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    justify-self: right;
+
+}
+.second {
+    height : 45vh;
+    width : 20vw;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    overflow: hidden;
+    position: relative;
+    margin: 5vh 2vw;
+    background-image: url("src/assets/annie-spratt-maS7GmsVeRs-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    justify-self: left;
+}

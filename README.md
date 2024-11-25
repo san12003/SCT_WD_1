@@ -1,2 +1,8 @@
-# SCT_WD_1
-A responsive multi-page website created for SkillCraft Technology Internship - Task 1. Built with React.js, it features smooth scrollable sections, stylish navigation, and a dynamic, responsive design. Clone, run npm install, and start with npm start to explore!
+# React + Vite
+
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+
+Currently, two official plugins are available:
+
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh

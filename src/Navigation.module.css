@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Petit+Formal+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+.navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 99vw;
+    /*background-color: rgba(255, 255, 255, 0.7);*/
+    backdrop-filter: blur(10px);
+
+    .comp{
+        font-family: "Petit Formal Script", cursive;
+        font-weight: 400;
+        font-style: normal;
+        font-size: xx-small;
+
+        .lK{
+            justify-content: left;
+            font-size: x-large;
+        }
+        margin-right:60vw;
+    }
+
+
+    a {
+        margin: 20px;
+        padding: 10px;
+        text-decoration: none;
+        color: white;
+        &:hover {
+            color: #ffa200;
+        }
+        font-family: "Mulish", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: bold;
+        font-style: normal;
+    }
+
+    svg{
+        height: 5vh;
+        cursor: pointer;
+    }
+}
