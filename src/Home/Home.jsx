@@ -10,7 +10,7 @@ function Home() {
                     <p>“Transforming Spaces, Elevating Lifestyles.”</p>
                 </div>
                 <div className={styles.cardtwo}>
-                    <img src={"src/assets/roberto-nickson-rEJxpBskj3Q-unsplash.jpg"}/>
+                    <img src={"https://github.com/san12003/SCT_WD_1/blob/main/src/assets/roberto-nickson-rEJxpBskj3Q-unsplash.jpg?raw=true"}/>
                 </div>
                 <div className={styles.cardthree}>
                     <h1>WELCOME TO OUR COMPANY</h1>
