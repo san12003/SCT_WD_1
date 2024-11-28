@@ -9,7 +9,7 @@
     grid-column-end: 2;
     grid-row-start: 1;
     grid-row-end: 2;
-    background-image: url("src/assets/stair 1.jpg");
+    background-image: url("https://github.com/san12003/SCT_WD_1/blob/main/src/assets/stair%201.jpg?raw=true");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -107,7 +107,7 @@
     grid-column-end: 3;
     grid-row-start: 2;
     grid-row-end: 3;
-    background-image: url("src/assets/second image.jpg");
+    background-image: url("https://github.com/san12003/SCT_WD_1/blob/main/src/assets/second%20image.jpg?raw=true");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
